@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+body{
+	background-color: hsl(212, 23%, 69%);
+	font-size: 13px;
+	font-family: 'Manrope', sans-serif;
+	overflow: hidden;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+/*.centre{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}*/
+.main-container{
+	background-color: whitesmoke;
+	display: grid;
+	grid-template-columns: 40% 1fr;
+	grid-gap: 20px;
+	border-radius: 10px;
+	width: 720px
+
+}
+/*.image{
+	flex: 100%;
+	padding-right: 20px;
+}*/
+.image{
+	background-image: url(https://github.com/lynnecodes/FM-articlepreviewcomponent/blob/master/images/drawers.jpg?raw=true);
+	height: 100%;
+	background-size: cover;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+.info{
+	flex: 60%;
+	padding: 20px;
+	font-weight: 500;
+}
+.h2{
+	font-weight: 700;
+}
+
+.pro-container{
+	width: 300px;
+	height: 75px;
+	display: flex;
+}
+.avatar{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	vertical-align: middle;
+}
+.h4{
+	font-weight: 700;
+	padding-left: 10px;
+}
+.share-button{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border: none;
+	padding: 5px;
+	cursor: pointer;
+	vertical-align: middle;
+}
+
+/*.btn{
+	border-radius: 50%;
+	border: none;
+	cursor: pointer;
+	padding: 5px;
+}*/
+.share-button:hover{
+	background-color: lightskyblue ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*div {
+  -ms-flex: 1;   IE 10   
+  flex: 1;
+}*/
