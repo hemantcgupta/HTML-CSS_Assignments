@@ -1,6 +1,5 @@
 function action() {
 	var share =
-	document.getElementById("myPopup");
-	share.classList.toggle("show")
-}
+	document.getElementById("media");
+	share.classList.toggle("show");
 }
