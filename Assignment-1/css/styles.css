@@ -3,6 +3,7 @@
 }
 body{
 	background-color: hsl(212, 23%, 69%);
+	display: flex;
 	font-size: 13px;
 	font-family: 'Manrope', sans-serif;
 	overflow: hidden;
@@ -10,12 +11,6 @@ body{
 	align-items: center;
 	height: 100vh;
 }
-/*.centre{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-
-}*/
 .main-container{
 	background-color: whitesmoke;
 	display: grid;
@@ -25,12 +20,8 @@ body{
 	width: 720px
 
 }
-/*.image{
-	flex: 100%;
-	padding-right: 20px;
-}*/
 .image{
-	background-image: url(https://github.com/lynnecodes/FM-articlepreviewcomponent/blob/master/images/drawers.jpg?raw=true);
+	background-image: url(https://github.com/hemantcgupta/HTML-CSS_Assignments/blob/master/Assignment-1/images/drawers.jpg?raw=true);
 	height: 100%;
 	background-size: cover;
 	border-top-left-radius: 10px;
@@ -46,9 +37,13 @@ body{
 }
 
 .pro-container{
-	width: 300px;
-	height: 75px;
+	/*display: grid;
+	grid-template-columns: 80px 1fr 80px;
+	grid-gap: 10px;*/
 	display: flex;
+	flex-direction: row;
+	/*justify-content: center;*/
+	align-items: center;
 }
 .avatar{
 	width: 50px;
@@ -56,10 +51,20 @@ body{
 	border-radius: 50%;
 	vertical-align: middle;
 }
-.h4{
+.pro-info{
+	margin-left: 15px;
+}
+.p{
 	font-weight: 700;
 	padding-left: 10px;
+
 }
+.share{
+	background-color: lightgray; 
+	border-radius: 50%;
+	margin-left: auto;
+}
+
 .share-button{
 	width: 30px;
 	height: 30px;
@@ -70,12 +75,6 @@ body{
 	vertical-align: middle;
 }
 
-/*.btn{
-	border-radius: 50%;
-	border: none;
-	cursor: pointer;
-	padding: 5px;
-}*/
 .share-button:hover{
 	background-color: lightskyblue ;
 }
