@@ -59,7 +59,7 @@ body{
 
 
 /********** Large devices only **********/
-@media screen and (max-width: 1200px) {
+@media (min-width: 800px) and (max-width: 1200px) {
   .small-row, .c{
     width: 50%;
   }
@@ -69,7 +69,7 @@ body{
 
 /********** Medium devices only **********/
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 799px) {
   .row {
     display: block;
   }
