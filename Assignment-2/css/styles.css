@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+body{
+	background-color: hsl(234, 14%, 74%);
+	background-image: 
+	url('./images/bg-bottom.svg') 
+	left bottom no-repeat, 
+	url('./images/bg-top.svg') 
+	right top no-repeat;
+	background-attachment: fixed;  
+  background-size: cover;
+  display: flex;
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+	overflow: hidden;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+.main-container{
+	display: grid;
+	grid-template-columns: 5% 30% 30% 30% 5%;
+	justify-content: center;
+	align-items: center;
+}
+.pricing{
+	grid-column: 1/6;
+	grid-row: 1/2;
+	text-align: center;
+}
+.toggle{
+	display: flex;
+	flex-direction: row;
+	padding-bottom: 50px;
+	grid-column: 1/6;
+	grid-row: 2/3;
+	
+
+}
+.column-1{
+	text-align: center;
+	margin-left: auto;
+	margin-right: 50px;
+
+}
+.column-3{
+	text-align: center;
+	margin-left: 50px;
+	margin-right: auto;
+	
+}
+.basic{
+	width:  250px;
+	height: 500px;
+	background-color: whitesmoke;
+	border: 1px #000 solid;
+	text-align: center;
+	font-size: 20px;
+	grid-column: 2/3;
+	grid-row: 3/4;
+}
+.professional{
+	width:  250px;
+	height: 500px;
+	background-color: whitesmoke;
+	border: 1px #000 solid;
+	padding-right: 1px;
+	text-align: center;
+	font-size: 20px;
+	grid-column: 3/4;
+	grid-row: 3/4;
+}
+.master{
+	width:  250px;
+	height: 500px;
+	background-color: whitesmoke;
+	border: 1px #000 solid;
+	padding-right: 1px;
+	text-align: center;
+	font-size: 20px;
+	grid-column: 4/5;
+	grid-row: 3/4;
+}
